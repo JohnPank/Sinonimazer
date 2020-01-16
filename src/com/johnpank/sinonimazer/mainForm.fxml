@@ -21,10 +21,12 @@
           </Menu>
         </menus>
       </MenuBar>
-      <Label fx:id="lblFile" layoutX="81.0" layoutY="41.0" prefHeight="16.0" prefWidth="512.0" />
+      <Label fx:id="lblFile" layoutX="75.0" layoutY="33.0" prefHeight="16.0" prefWidth="512.0" />
       <TextArea fx:id="txaSource" layoutX="7.0" layoutY="73.0" prefHeight="131.0" prefWidth="586.0" wrapText="true" />
-      <Button fx:id="btnExit" layoutX="531.0" layoutY="360.0" mnemonicParsing="false" text="Exit" />
+      <Button fx:id="btnExit" layoutX="549.0" layoutY="364.0" mnemonicParsing="false" text="Exit" />
       <TextArea fx:id="txaResult" layoutX="7.0" layoutY="223.0" prefHeight="131.0" prefWidth="586.0" wrapText="true" />
-      <Label layoutX="14.0" layoutY="41.0" prefHeight="16.0" prefWidth="61.0" text="File path" />
+      <Label layoutX="14.0" layoutY="33.0" prefHeight="16.0" prefWidth="61.0" text="File path" />
+      <Label layoutX="14.0" layoutY="57.0" prefHeight="16.0" prefWidth="125.0" text="Исходный текст" />
+      <Label layoutX="14.0" layoutY="207.0" prefHeight="16.0" prefWidth="137.0" text="Результат замены" />
    </children>
 </AnchorPane>
